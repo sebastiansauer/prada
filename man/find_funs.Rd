@@ -24,8 +24,6 @@ The code of this function was inspired by code from Ben Bolker
 \examples{
 
  find_funs("qplot")
- find_funs("select")
- find_funs("mean")
  find_funs("sdfjkl")
 
 

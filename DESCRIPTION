@@ -7,7 +7,7 @@ Maintainer: Sebastian Sauer <ssauer@posteo.de>
 Description: This packages provides the data and the R functions used 
     in the course "practical data analysis" and book "stastisics_21". 
     The course materials can be found here <https://sebastiansauer.github.io/Praxis_der_Datenanalyse/>.
-License: CC BY-SA 4.0
+License: GPL-3 | file LICENSE
 Encoding: UTF-8
 LazyData: true
 imports: BayesFactor, 
@@ -19,6 +19,7 @@ imports: BayesFactor,
     corrr, 
     desctable, 
     downloader, 
+    dplyr,
     GGally, 
     gplots, 
     grid, 
@@ -28,8 +29,10 @@ imports: BayesFactor,
     MBESS, 
     methods,
     modelr, 
+    ggplot2movies,
     nFactors, 
     nycflights13, 
+    pacman,
     pander, 
     pdftools, 
     plot3D,
@@ -38,14 +41,15 @@ imports: BayesFactor,
     pROC, 
     psych, 
     pwr, 
+    reshape2,
     SDMTools, 
     SnowballC, 
     stringr, 
+    tibble,
     tidyr, 
     tidytext, 
     tidyverse, 
     viridis, 
-    wordcloud,
-    pacman
+    wordcloud
 RoxygenNote: 6.0.1
 

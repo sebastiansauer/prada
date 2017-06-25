@@ -12,8 +12,6 @@
 #' @examples
 #'
 #'  find_funs("qplot")
-#'  find_funs("select")
-#'  find_funs("mean")
 #'  find_funs("sdfjkl")
 #'
 #'
@@ -22,7 +20,7 @@
 find_funs <- function(f) {
 
   # search for help in list of installed packages
-  help_installed <- utils::help.search(paste0("^",f,"$"), agrep = FALSE)
+  help_installed <- utils::help.search(base::paste0("^",f,"$"), agrep = FALSE)
 
   # extract package name from help file
   pckg_hits <- help_installed$matches[,"Package"]

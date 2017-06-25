@@ -9,8 +9,3 @@ install_prada_pckgs()
 \description{
 This function checks if you have all the packages necessary for the analyses of this pacakge. If you don't, they will be installed.
 }
-\examples{
-
- install_prada_pckgs()
-
-}

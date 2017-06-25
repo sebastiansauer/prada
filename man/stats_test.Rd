@@ -15,7 +15,11 @@
   \item{score}{Int. score (number of correct answers out of 40), ranging fom 0 (all false) to 40 (all correct)}
  }}
 \source{
-Survey conducted at the Business Psychology lab at FOM University of Applied Sciences from 2015 to April 2017
+The data were published here: \url{https://osf.io/sjhuy/}.
+    The survey is online here \url{https://goo.gl/forms/TCWUFe0ZIrUQEetv1}. Note that items have changed over time.
+    However, whether 'true' or 'false' had to be circled remain constant for each item.
+    Please cite this dataset as: 'Sauer, S. (2017, January 27).
+    Dataset “predictors of performance in stats test.” http://doi.org/10.17605/OSF.IO/SJHUY'
 }
 \usage{
 stats_test
@@ -30,7 +34,6 @@ Students were to tick their response in an online form. In addition some
 question were asked as to preparation time, upfront self-evalution and interest
 }
 \details{
-The survey is online here \url{https://goo.gl/forms/TCWUFe0ZIrUQEetv1}. Note that items have changed over time.
-    However, whether 'true' or 'false' had to be circled remain constant for each item.
+Survey conducted at the Business Psychology lab at FOM University of Applied Sciences from 2015 to April 2017
 }
 \keyword{datasets}

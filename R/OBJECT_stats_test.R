@@ -20,10 +20,13 @@
 #'   \item{interest}{Int. Subjective upfront rating of interest in statistics, ranging fom 1 (low) to 6 (high)}
 #'   \item{score}{Int. score (number of correct answers out of 40), ranging fom 0 (all false) to 40 (all correct)}
 #'  }
-#' @details The survey is online here \url{https://goo.gl/forms/TCWUFe0ZIrUQEetv1}. Note that items have changed over time.
+#' @source The data were published here: \url{https://osf.io/sjhuy/}.
+#'     The survey is online here \url{https://goo.gl/forms/TCWUFe0ZIrUQEetv1}. Note that items have changed over time.
 #'     However, whether 'true' or 'false' had to be circled remain constant for each item.
-#' @source Survey conducted at the Business Psychology lab at FOM University of Applied Sciences from 2015 to April 2017
-#' @examples
+#'     Please cite this dataset as: 'Sauer, S. (2017, January 27).
+#'     Dataset “predictors of performance in stats test.” http://doi.org/10.17605/OSF.IO/SJHUY'
+#' @details Survey conducted at the Business Psychology lab at FOM University of Applied Sciences from 2015 to April 2017
+
 
 
 "stats_test"

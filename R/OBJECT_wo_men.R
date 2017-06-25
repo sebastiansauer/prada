@@ -13,9 +13,12 @@
 #'   \item{height}{Num. Self-reported height in centimeters}
 #'   \item{shoe_size}{Num. Self-reported shoe size in German format}
 #' }
-#' @details
-#' @source Survey conducted at the Business Psychology lab at FOM University of Applied Sciences from 2015 to April 2017
-#' @examples
+#' @source The data were published here: \url{https://osf.io/ja9dw}.
+#'    Survey conducted at the Business Psychology lab at
+#'    FOM University of Applied Sciences from 2015 to April 2017.
+#'    Please cite as: 'Sauer, S. (2017, February 23).
+#'    Dataset “Height and shoe size.” http://doi.org/10.17605/OSF.IO/JA9DW'
+
 
 
 "wo_men"
