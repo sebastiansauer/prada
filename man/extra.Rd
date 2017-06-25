@@ -12,11 +12,11 @@
   \item{i01}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
   \item{i02r}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
   \item{i03}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
-  \item{i04r}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
+  \item{i04}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
   \item{i05}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
   \item{i06r}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
   \item{i07}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
-  \item{i08r}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
+  \item{i08}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
   \item{i09}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
   \item{i10}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
   \item{n_facebook_friends}{Int. Count of self-reported Facebook friends}
