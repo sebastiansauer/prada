@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "\nsave(\"Affairs\", file = \"Affairs.RData\")\nsave(\"extra\", file = \"extra.RData\")\n\nlibrary(tidyverse)\n\nextra <- rename(extra, row_number = rowname)\n\nwo_men <- rename(wo_men, row_number = row_numre)\nsave(wo_men, file =\"data/wo_men.RData\")\n\nstats_test <- test_inf_short\nsave(\"stats_test\", file = \"stats_test.RData\")\n\n\nsave(\"werte\", file = \"werte.RData\")\n\n\n\nlibrary(devtools)\n\ndevtools::use_vignette(\"prada\")\ndevtools::document()\n\n\nlibrary(pacman)\n\n\n\np_load(\"BaylorEdPsych\", \"broom\", \"car\", \"caret\", \"cluster\", \n\"corrplot\", \"corrr\", \"desctable\", \"downloader\", \"dplyr\", \"GGally\", \n\"ggplot2\", \"gplots\", \"grid\", \"lsa\", \"lsr\", \"MASS\", \"MBESS\", \"methods\", \n\"modelr\", \"nFactors\", \"nycflights13\", \"pander\", \"pdftools\", \"plot3D\", \n\"plotROC\", \"png\", \"pROC\", \"psych\", \"pwr\", \"readr\", \"SDMTools\", \n\"SnowballC\", \"stringr\", \"tidyr\", \"tidytext\", \"tidyverse\", \"viridis\", \n\"wordcloud\")\n\n\nprada_pckgs <- c(\"BayesFactor\", \"BaylorEdPsych\", \"broom\", \"car\", \"caret\", \"cluster\", \n                 \"corrplot\", \"corrr\", \"desctable\", \"downloader\", \"dplyr\", \"GGally\", \n                 \"ggplot2\", \"gplots\", \"grid\", \"lsa\", \"lsr\", \"MASS\", \"MBESS\", \"methods\", \n                 \"modelr\", \"nFactors\", \"nycflights13\", \"pander\", \"pdftools\", \"plot3D\", \n                 \"plotROC\", \"png\", \"pROC\", \"psych\", \"pwr\", \"readr\", \"SDMTools\", \n                 \"SnowballC\", \"stringr\", \"tidyr\", \"tidytext\", \"tidyverse\", \"viridis\", \n                 \"wordcloud\")\n\n?find_funs\np_load(char = prada_pckgs)\n\n\npackages\ndput(packages)\n\nprada_pckgs <- packages\n\nsave(prada_pckgs, file = \"data/prada_pckgs.RData\")\n\n\n\ndevtools::document()\ndevtools::build() \n",
+    "created" : 1498388666138.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "3455481693",
+    "id" : "189B4520",
+    "lastKnownWriteTime" : 6,
+    "last_content_update" : 1498396024449,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
