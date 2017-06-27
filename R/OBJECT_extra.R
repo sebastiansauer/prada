@@ -14,17 +14,17 @@
 #' @format A data frame containing 826 rows and 33 columns
 #' \describe{
 #'   \item{timestamp}{Chr. Date and Time in German format}
-#'   \item{code}{(Chr. Pseudonymous code of each participant}
-#'   \item{i1}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
-#'   \item{i1}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
-#'   \item{i2r}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
-#'   \item{i3}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
-#'   \item{i4}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
- #'   \item{i5}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
- #'   \item{i6r}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
-#'   \item{i7}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
-#'   \item{i8}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
-#'   \item{i9}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
+#'   \item{code}{Chr. Pseudonymous code of each participant}
+#'   \item{i01}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
+#'   \item{i01}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
+#'   \item{i02r}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
+#'   \item{i03}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
+#'   \item{i04}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
+#'   \item{i05}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
+#'   \item{i06r}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
+#'   \item{i07}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
+#'   \item{i08}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
+#'   \item{i09}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
 #'   \item{i10}{Int. Extraversion items 1-10. "r" indicates that this item has been recoded (reverserd). Likert scales from 1 (do not agree) to 4 (fully agree)}
 #'   \item{n_facebook_friends}{Int. Count of self-reported Facebook friends}
 #'   \item{n_hangover}{Int. Count of self-reported hangovers in the last 12 months}
@@ -54,7 +54,6 @@
 #'     Survey conducted at the Business Psychology lab at FOM University of Applied Sciences from 2015 to April 2017
 #' @source Please cite this dataset as: 'Sauer, S. (2016, November 19).
 #'     Extraversion Dataset. http://doi.org/10.17605/OSF.IO/4KGZH'
-
 
 
 "extra"
