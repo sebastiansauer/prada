@@ -35,6 +35,7 @@
   \item{smoker}{Chr. Smoker?}
   \item{sleep_week}{Chr. Daily hours of sleep during work days}
   \item{sleep_wend}{Chr. Daily hours of sleep during week ends}
+  \item{clients_freq}{Num. Same as 'clients', from 1 (barely) to 5 (very often)}
   \item{extra_mean}{Num. Mean of 10 extraversion items}
   \item{extra_md}{Num. Median of 10 extraversion items}
   \item{extra_aad}{Num. Absolute average deviation from the mean of 10 extraversion items}
