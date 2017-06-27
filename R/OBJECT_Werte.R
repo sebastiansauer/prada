@@ -1,0 +1,33 @@
+#' Results from a survey on value orientation
+#'
+#' This is a random selection of 1000 cases with 15 variables of Human Values from the european social survey.
+#' The data were collected by students of the FOM in Germany in spring 2017 using face-to-face interviews.
+#'
+#'
+#'
+#'
+#' @format A data frame containing 1000 rows and 15 columns
+#' \describe{
+#'   \item{W1}{Spass haben und Dinge tun, die Freude bereiten.}
+#'   \item{W2}{Freuden des Lebens geniessen und sich selbst verwoehnen.}
+#'   \item{W3}{Ueberraschungen moegen und aufregendes Leben fuehren.}
+#'   \item{W4}{Im sicheren Umfeld leben und Gefahren meiden.}
+#'   \item{W5}{Interne und externe Sicherheit im Land.}
+#'   \item{W6}{Wertschaetzen von Ordentlichkeit, Sauberkeit und Ablehnen von Unordnung.}
+#'   \item{W7}{Andersartigen Menschen zuhoeren und Meinung verstehen.}
+#'   \item{W8}{Fuer die Natur einsetzen und um die Umwelt kuemmern.}
+#'   \item{W9}{Interessieren, neugierig sein und versuchen Dinge verstehen.}
+#'   \item{W10}{Religioes sein und auch danach leben.}
+#'   \item{W11}{Eltern und aeltere Menschen respektieren und gehorsam sein.}
+#'   \item{W12}{Demuetig und bescheiden sein, keine Aufmerksamkeit anziehen.}
+#'   \item{W13}{Fuehrung uebernehmen.}
+#'   \item{W14}{Entscheidungen treffen.}
+#'  }
+#' @details This dataset was published here: \url{https://osf.io/zg89r/}.
+#'
+#' @source Please cite this dataset as: 'Gansser, O. (2017, June 8).
+#' Data for Principal Component Analysis and Common Factor Analysis. Retrieved from osf.io/zg89r'
+
+
+
+"Werte"
