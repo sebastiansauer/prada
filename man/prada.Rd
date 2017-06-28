@@ -6,5 +6,5 @@
 \alias{prada-package}
 \title{prada: A package accompanying the course "practical data analysis" (hence pra-da) and the book "stastisics_21"}
 \description{
-The package contains some conveniecne functions and the data used in the aforementioned course and book
+The package contains some convenience functions and the data used in the aforementioned course and book
 }

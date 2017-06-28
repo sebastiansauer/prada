@@ -23,14 +23,17 @@
  }}
 \source{
 Please cite this dataset as: 'Gansser, O. (2017, June 8).
-Data for Principal Component Analysis and Common Factor Analysis. Retrieved from osf.io/zg89r'
+Data for Principal Component Analysis and Common Factor
+Analysis. Retrieved from www.osf.io/zg89r'
 }
 \usage{
 Werte
 }
 \description{
-This is a random selection of 1000 cases with 15 variables of Human Values from the european social survey.
-The data were collected by students of the FOM in Germany in spring 2017 using face-to-face interviews.
+This is a random selection of 1000 cases with 15 variables
+of Human Values from the european social survey.
+The data were collected by students of the FOM
+in Germany in spring 2017 using face-to-face interviews.
 }
 \details{
 This dataset was published here: \url{https://osf.io/zg89r/}.
