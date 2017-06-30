@@ -10,16 +10,18 @@
   \item{W2}{Freuden des Lebens geniessen und sich selbst verwoehnen.}
   \item{W3}{Ueberraschungen moegen und aufregendes Leben fuehren.}
   \item{W4}{Im sicheren Umfeld leben und Gefahren meiden.}
-  \item{W5}{Interne und externe Sicherheit im Land.}
-  \item{W6}{Wertschaetzen von Ordentlichkeit, Sauberkeit und Ablehnen von Unordnung.}
-  \item{W7}{Andersartigen Menschen zuhoeren und Meinung verstehen.}
-  \item{W8}{Fuer die Natur einsetzen und um die Umwelt kuemmern.}
-  \item{W9}{Interessieren, neugierig sein und versuchen Dinge verstehen.}
-  \item{W10}{Religioes sein und auch danach leben.}
-  \item{W11}{Eltern und aeltere Menschen respektieren und gehorsam sein.}
-  \item{W12}{Demuetig und bescheiden sein, keine Aufmerksamkeit anziehen.}
-  \item{W13}{Fuehrung uebernehmen.}
-  \item{W14}{Entscheidungen treffen.}
+  \item{W12}{Interne und externe Sicherheit im Land.}
+  \item{W13}{Wertschaetzen von Ordentlichkeit, Sauberkeit und Ablehnen von Unordnung.}
+  \item{W14}{Andersartigen Menschen zuhoeren und Meinung verstehen.}
+  \item{W15}{Fuer die Natur einsetzen und um die Umwelt kuemmern.}
+  \item{W16}{Interessieren, neugierig sein und versuchen Dinge verstehen.}
+  \item{W17}{Religioes sein und auch danach leben.}
+  \item{W18}{Eltern und aeltere Menschen respektieren und gehorsam sein.}
+  \item{W9}{Demuetig und bescheiden sein, keine Aufmerksamkeit anziehen.}
+  \item{W10}{Fuehrung uebernehmen.}
+  \item{W11}{Entscheidungen treffen.}
+  \item{W6}{Entscheidungen treffen.}
+  \item{W7}{Entscheidungen treffen.}
  }}
 \source{
 Please cite this dataset as: 'Gansser, O. (2017, June 8).
