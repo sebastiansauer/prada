@@ -21,7 +21,6 @@
 #'   \item{timestamp}{Chr. Date and Time in German format}
 #'   \item{code}{Chr. Pseudonymous code of each participant}
 #'   \item{i01}{Int. items 1-10. "r" indicates recoded (reverserd). Answers: 1 (not agree) to 4 (agree)}
-#'   \item{i01}{Int. items 1-10. "r" indicates recoded (reverserd). Answers: 1 (not agree) to 4 (agree)}
 #'   \item{i02r}{Int. items 1-10. "r" indicates recoded (reverserd). Answers: 1 (not agree) to 4 (agree)}
 #'   \item{i03}{Int. items 1-10. "r" indicates recoded (reverserd). Answers: 1 (not agree) to 4 (agree)}
 #'   \item{i04}{Int. items 1-10. "r" indicates recoded (reverserd). Answers: 1 (not agree) to 4 (agree)}

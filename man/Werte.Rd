@@ -6,27 +6,26 @@
 \title{Results from a survey on value orientation}
 \format{A data frame containing 1000 rows and 15 columns
 \describe{
-  \item{W1}{Spass haben und Dinge tun, die Freude bereiten.}
-  \item{W2}{Freuden des Lebens geniessen und sich selbst verwoehnen.}
-  \item{W3}{Ueberraschungen moegen und aufregendes Leben fuehren.}
-  \item{W4}{Im sicheren Umfeld leben und Gefahren meiden.}
-  \item{W12}{Interne und externe Sicherheit im Land.}
-  \item{W13}{Wertschaetzen von Ordentlichkeit, Sauberkeit und Ablehnen von Unordnung.}
-  \item{W14}{Andersartigen Menschen zuhoeren und Meinung verstehen.}
-  \item{W15}{Fuer die Natur einsetzen und um die Umwelt kuemmern.}
-  \item{W16}{Interessieren, neugierig sein und versuchen Dinge verstehen.}
-  \item{W17}{Religioes sein und auch danach leben.}
-  \item{W18}{Eltern und aeltere Menschen respektieren und gehorsam sein.}
-  \item{W9}{Demuetig und bescheiden sein, keine Aufmerksamkeit anziehen.}
-  \item{W10}{Fuehrung uebernehmen.}
-  \item{W11}{Entscheidungen treffen.}
-  \item{W6}{Entscheidungen treffen.}
-  \item{W7}{Entscheidungen treffen.}
+  \item{Spass}{Fun}
+  \item{Freude}{Joy}
+  \item{Aufregung}{Excitement}
+  \item{Fuehrung}{Leadership}
+  \item{Entscheidung}{Decisiveness}
+  \item{Religioesitaet}{Religiosity}
+  \item{Respekt}{Respect}
+  \item{Demut}{Humility}
+  \item{Gefahrenvermeidung}{Avoidance}
+  \item{Sicherheit}{Security}
+  \item{Ordentlichkeit}{Orderliness}
+  \item{Unabhaengigkeit}{Independence}
+  \item{Zuhoeren}{Listening}
+  \item{Umweltbewusstsein}{Environment awareness}
+  \item{Interesse}{Intereset}
  }}
 \source{
 Please cite this dataset as: 'Gansser, O. (2017, June 8).
 Data for Principal Component Analysis and Common Factor
-Analysis. Retrieved from www.osf.io/zg89r'
+Analysis. Retrieved from https://osf.io/4982w/'
 }
 \usage{
 Werte
@@ -38,6 +37,6 @@ The data were collected by students of the FOM
 in Germany in spring 2017 using face-to-face interviews.
 }
 \details{
-This dataset was published here: \url{https://osf.io/zg89r/}.
+This dataset was published here: \url{https://osf.io/4982w/}.
 }
 \keyword{datasets}
