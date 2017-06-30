@@ -5,7 +5,7 @@ Version: 0.1.0
 Author: Sebastian Sauer
 Maintainer: Sebastian Sauer <ssauer@posteo.de>
 Description: This packages provides the data and the R functions used 
-    in the course "practical data analysis" and book "stastisics_21". 
+    in the course "practical data analysis" and book "stastistics_21". 
     The course materials can be found here <https://sebastiansauer.github.io/Praxis_der_Datenanalyse/>.
 License: GPL-3 | file LICENSE
 Encoding: UTF-8
