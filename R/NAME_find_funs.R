@@ -15,6 +15,9 @@
 #'  find_funs("sdfjkl")
 #'
 #'
+#' @importFrom dplyr filter select distinct
+#' @importFrom tibble as_tibble
+
 
 #' @export
 find_funs <- function(f) {
