@@ -6,7 +6,14 @@
 \usage{
 install_prada_pckgs()
 }
+\value{
+does not return any object
+}
 \description{
 This function checks if you have all the packages necessary
-for the analyses of this pacakge. If you don't, they will be installed.
+for the analyses of this pacakge. If you don't have them,
+this function will get them installed.
+}
+\examples{
+ install_prada_pckgs()
 }
