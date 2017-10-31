@@ -1,12 +1,12 @@
 Package: prada
 Type: Package
-Title: Data and R functions for course "Praktische Datenanalyse" and book "Statistik_21"
-Version: 0.1.0
+Title: Data and R functions as a companion to my book "Statistik_21"
+Version: 0.1.1
+Date: 2017-10-12
 Author: Sebastian Sauer
 Maintainer: Sebastian Sauer <ssauer@posteo.de>
 Description: This packages provides the data and the R functions used 
-    in the course "practical data analysis" and book "stastistics_21". 
-    The course materials can be found here <https://sebastiansauer.github.io/Praxis_der_Datenanalyse/>.
+    in the course "practical data analysis" and the book "Stastistics 21". 
 License: GPL-3 | file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -55,6 +55,8 @@ Suggests: BayesFactor,
     tidyverse,
     titanic,
     viridis, 
-    wordcloud
+    wordcloud,
+    gridExtra,
+    grDevices
 RoxygenNote: 6.0.1
 
