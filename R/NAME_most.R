@@ -19,11 +19,11 @@ most <- function(x){
     out <- NA
     return(out)
   }
-  x <- stats::na.omit(x)
-  t <- base::table(x)
-  m <- base::max(t)
-  out <- base::as.numeric(base::names(t)[t==m])
-  if (base::length(out) > 1) out <- out[1]
-  if (base::length(out) == 0) out <- NA
-  base::return(out)
+  x <- na.omit(x)
+  t <- table(x)
+  m <- max(t)
+  out <- as.numeric(names(t)[t==m])
+  if (length(out) > 1) out <- out[1]
+  if (length(out) == 0) out <- NA
+  return(out)
 }

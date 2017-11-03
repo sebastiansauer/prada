@@ -10,11 +10,14 @@ Description: This packages provides the data and the R functions used
 License: GPL-3 | file LICENSE
 Encoding: UTF-8
 LazyData: true
-Imports: dplyr,
+Imports:
+    dplyr,
+    stringr,
     pacman,
     tibble,
     rlang
-Suggests: BayesFactor, 
+Suggests: 
+    BayesFactor, 
     BaylorEdPsych, 
     broom,
     car, 
@@ -49,7 +52,6 @@ Suggests: BayesFactor,
     reshape2,
     SDMTools, 
     SnowballC, 
-    stringr, 
     tidyr, 
     tidytext, 
     tidyverse,
@@ -57,6 +59,7 @@ Suggests: BayesFactor,
     viridis, 
     wordcloud,
     gridExtra,
-    grDevices
+    grDevices,
+    utils
 RoxygenNote: 6.0.1
 

@@ -7,14 +7,13 @@
 
 #' @return does not return any object
 
-#' @examples
-#'  install_prada_pckgs()
+#'  @importFrom pacman p_load
 
 
 #' @export
 install_prada_pckgs <- function() {
   pacman::p_load(char = prada_pckgs)
-  base::print("If no error occurred, the packages needed to run all analyses in prada-context should be installed now.")
+  print("If no error occurred, the packages needed to run all analyses in prada-context should be installed now.")
 }
 
 

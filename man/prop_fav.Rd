@@ -9,7 +9,7 @@ prop_fav(df, value, group, g1, g2)
 \arguments{
 \item{df}{data frame}
 
-\item{value}{are (unquoted) column with values of the two vectors}
+\item{value}{bare (unquoted) column with values of the two vectors}
 
 \item{group}{bare (unquoted) column with grouping information}
 

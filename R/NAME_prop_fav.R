@@ -3,7 +3,7 @@
 #' This function takes two vectors (x,y; ie., group 1 and 2) of values and computes all pairwise comparisons (>, ie., "greater than"). The proportion of x>y is returned. Columns must be quoted.
 #'
 #' @param df data frame
-#' @param value are (unquoted) column with values of the two vectors
+#' @param value bare (unquoted) column with values of the two vectors
 #' @param group bare (unquoted) column with grouping information
 #' @param g1 name of group 1 (quoted if not numeric)
 #' @param g2 name of group 2 (quoted if not numeric)
@@ -14,25 +14,30 @@
 #' data(extra, package = "prada")
 #' prop_fav(df = extra, value = extra_mean, group = sex, g1 = "Frau", g2 = "Mann")
 
-#' @importFrom rlang enquo !!
+#' @importFrom rlang enquo UQ
 #' @importFrom dplyr select filter pull %>%
+#' @importFrom stats na.omit
+#'
+#'
+
+
 #' @export
 prop_fav <- function(df, value, group, g1, g2){
-  value <- enquo(value)
-  group <- enquo(group)
+  value <- rlang::enquo(value)
+  group <- rlang::enquo(group)
 
 
   df %>%
-    filter((!!group) == g1) %>%
-    select(!!value) %>%
-    pull -> values_g1
+    dplyr::filter((rlang::UQ(group)) == g1) %>%
+    select(rlang::UQ(value)) %>%
+    dplyr::pull() -> values_g1
 
   df %>%
-    filter((!!group) == g2) %>%
-    select(!!value) %>%
-    pull -> values_g2
+    filter((rlang::UQ(group)) == g2) %>%
+    select(rlang::UQ(value)) %>%
+    dplyr::pull() -> values_g2
 
-  values_g1 <- na.omit(values_g1)
+  values_g1 <- stats::na.omit(values_g1)
 
   comp_grid <- expand.grid(values_g1, values_g2)
 

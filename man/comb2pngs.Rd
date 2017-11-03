@@ -13,11 +13,14 @@ comb2pngs(imgs, bottom_text = NULL)
 }
 \value{
 plots images in knitr chunk
+ @importFrom grid rasterGrob
+ @importFrom grDevices as.raster
+ @importFrom png readPNG
+ @importFrom gridExtra grid.arrange
 }
 \description{
 \code{comb2pngs} combines to png images into one, and then plots the combined image.
 }
 \details{
-The code of this function was inspired by code from Ben
-    at \url{https://stackoverflow.com/questions/25415365/insert-side-by-side-png-images-using-knitr}
+The code of this function was inspired by code from Ben Bolker at \url{https://stackoverflow.com/questions/25415365/insert-side-by-side-png-images-using-knitr}
 }

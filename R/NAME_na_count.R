@@ -5,12 +5,15 @@
 #' @param data data frame or tibble
 #' @return count of all NAs
 #'
-
+#'
+#'
+#' @importFrom dplyr summarise_all funs
+#'
 #' @export
 na_count <- function(data){
 
   data %>%
-    summarise_all(funs(sum(is.na(.)))) %>%
+    dplyr::summarise_all(dplyr::funs(sum(is.na(.)))) %>%
     sum
 
 }

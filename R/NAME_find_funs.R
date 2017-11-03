@@ -17,16 +17,17 @@
 #'
 #' @importFrom dplyr filter select distinct
 #' @importFrom tibble as_tibble
+#' @importFrom utils help.search installed.packages
 
 
 #' @export
 find_funs <- function(f) {
 
-  help_installed <- utils::help.search(base::paste0("^",f,"$"), agrep = FALSE)
+  help_installed <- utils::help.search(paste0("^",f,"$"), agrep = FALSE)
 
   pckg_hits <- help_installed$matches[,"Package"]
 
-  if (base::length(pckg_hits) == 0) pckg_hits <- "No_results_found"
+  if (length(pckg_hits) == 0) pckg_hits <- "No_results_found"
 
 
   pckgs <- utils::installed.packages()
@@ -38,8 +39,8 @@ find_funs <- function(f) {
 
   results <- tibble::data_frame(
     package_name = pckg_hits,
-    builtin_pckage = base::match(pckg_hits, builtin_pckgs_df$Package, nomatch = 0) > 0,
-    loaded = base::match(base::paste("package:",pckg_hits, sep = ""), base::search(), nomatch = 0) > 0
+    builtin_pckage = match(pckg_hits, builtin_pckgs_df$Package, nomatch = 0) > 0,
+    loaded = match(paste("package:",pckg_hits, sep = ""), search(), nomatch = 0) > 0
   )
 
   base::return(results)

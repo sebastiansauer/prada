@@ -18,7 +18,3 @@ A simple wrapper around download for not having to type a rather cumbersome down
 \details{
 This is a convenience function to download data from a specified OSF repo. Internet access is needed.
 }
-\examples{
-
- download_osf("meyhp")
-}
