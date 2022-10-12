@@ -4,7 +4,9 @@
 \name{prada_pckgs}
 \alias{prada_pckgs}
 \title{Vector of all packages needed for "Praktische Datenanalyse" and "Statistik_21"}
-\format{An object of class \code{character} of length 40.}
+\format{
+An object of class \code{character} of length 40.
+}
 \usage{
 prada_pckgs
 }

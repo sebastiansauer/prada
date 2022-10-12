@@ -2,7 +2,7 @@
 #'
 #' Checks which packages are used in a folder/R projects but are not installed locally
 #'
-#' This function checks which R packages are called by the function `library` in any script file (.r, .rmd, .qmd) in the local working directory. In requested by the user, the missing packages are installed from CRAN.
+#' This function checks which R packages are called by the function `library` in any script file (.r, .rmd, .qmd) in the local working directory. In requested by the user, the missing packages are installed from CRAN. In any case, the difference between the packages callled in the project folder and the packages installed are returned.
 #'
 #' @param install_missing_packages should missing packages be installed? Defaults to no (lgl)
 
