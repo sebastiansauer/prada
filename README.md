@@ -2,7 +2,7 @@
 R package for for practical data analysis
 
 
-Installaton:
+Installation:
 
 
 
