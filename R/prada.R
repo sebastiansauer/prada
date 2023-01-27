@@ -1,6 +1,6 @@
-#' prada: A package accompanying the course "practical data analysis" (hence pra-da) and the book "stastisics_21"
+#' prada: A package for practical data analysis
 #'
-#' The package contains some convenience functions and the data used in the aforementioned course and book
+#' The package contains some convenience functions for practical data analysis
 
 
 #' @docType package

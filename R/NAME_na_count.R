@@ -1,4 +1,4 @@
-#' A function to count all missing values in a data frame
+#' Count all missing values in a data frame
 #'
 #' \code{na_count} counts the missing values in all columns of a data frame.
 #'

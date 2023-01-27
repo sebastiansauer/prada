@@ -1,4 +1,4 @@
-#' A function to extract the mode
+#' Extract the mode
 #'
 #' \code{most} extracts the most frequent value (mfv; mode) of a numeric vector.
 #'

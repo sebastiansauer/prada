@@ -1,6 +1,8 @@
-#' A function to identify the installed package(s) for a given function name
+#' Finds the package of some function
 #'
-#' \code{find_funs} identifies the package(s) in which a given function name \code{f} exists.
+#' A function to identify the installed package(s) for a given function name.
+#' \code{find_funs} identifies the package(s) in which a given function name
+#' \code{f} exists.
 #'
 #' The code of this function was inspired by code from Ben Bolker
 #'     at \url{https://stackoverflow.com/questions/10553755/name-of-a-package-for-a-given-function-in-r}
