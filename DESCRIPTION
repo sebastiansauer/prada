@@ -1,12 +1,11 @@
 Package: prada
 Type: Package
-Title: Data and R functions as a companion to my book "Statistik_21"
-Version: 0.1.1
-Date: 2017-10-12
+Title: Data and R functions for practical data analysis
+Version: 0.2.0.9999
+Date: 2023-01-27
 Author: Sebastian Sauer
 Maintainer: Sebastian Sauer <ssauer@posteo.de>
-Description: This packages provides the data and the R functions used 
-    in the course "practical data analysis" and the book "Stastistics 21". 
+Description: This packages provides  data and  R functions useful for practical data analysis
 License: GPL-3 | file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -61,4 +60,4 @@ Suggests:
     gridExtra,
     grDevices,
     utils
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.3

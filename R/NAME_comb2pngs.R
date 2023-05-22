@@ -7,10 +7,10 @@
 #' @param imgs vector of image file names
 #' @param bottom_text caption text appearing below the figure
 #' @return plots images in knitr chunk
-#'  @importFrom grid rasterGrob
-#'  @importFrom grDevices as.raster
-#'  @importFrom png readPNG
-#'  @importFrom gridExtra grid.arrange
+#' @importFrom grid rasterGrob
+#' @importFrom grDevices as.raster
+#' @importFrom png readPNG
+#' @importFrom gridExtra grid.arrange
 
 
 #' @export

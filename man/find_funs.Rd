@@ -2,7 +2,7 @@
 % Please edit documentation in R/NAME_find_funs.R
 \name{find_funs}
 \alias{find_funs}
-\title{A function to identify the installed package(s) for a given function name}
+\title{Finds the package of some function}
 \usage{
 find_funs(f)
 }
@@ -15,7 +15,9 @@ find_funs(f)
     \code{loaded} whether that package is currently loaded/attached (lgl)
 }
 \description{
-\code{find_funs} identifies the package(s) in which a given function name \code{f} exists.
+A function to identify the installed package(s) for a given function name.
+\code{find_funs} identifies the package(s) in which a given function name
+\code{f} exists.
 }
 \details{
 The code of this function was inspired by code from Ben Bolker

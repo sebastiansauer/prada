@@ -13,8 +13,7 @@
 
 #' @export
 download_osf <- function(repo){
-  repo <- "meyhp"
-  osf_link <- paste0("https://osf.io/",repo, "/?action=download")
+  osf_link <- paste0("https://osf.io/", repo, "/?action=download")
   out <- read.csv(osf_link)
   return(out)
 }

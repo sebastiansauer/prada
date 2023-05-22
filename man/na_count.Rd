@@ -2,7 +2,7 @@
 % Please edit documentation in R/NAME_na_count.R
 \name{na_count}
 \alias{na_count}
-\title{A function to count all missing values in a data frame}
+\title{Count all missing values in a data frame}
 \usage{
 na_count(data)
 }

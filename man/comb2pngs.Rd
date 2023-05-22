@@ -13,10 +13,6 @@ comb2pngs(imgs, bottom_text = NULL)
 }
 \value{
 plots images in knitr chunk
- @importFrom grid rasterGrob
- @importFrom grDevices as.raster
- @importFrom png readPNG
- @importFrom gridExtra grid.arrange
 }
 \description{
 \code{comb2pngs} combines to png images into one, and then plots the combined image.

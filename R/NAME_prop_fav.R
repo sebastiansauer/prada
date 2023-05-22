@@ -1,6 +1,8 @@
 #' A function to compute the proportion of 'favorable' pairwise comparisons
 #'
-#' This function takes two vectors (x,y; ie., group 1 and 2) of values and computes all pairwise comparisons (>, ie., "greater than"). The proportion of x>y is returned. Columns must be quoted.
+#' This function takes two vectors (x,y; ie., group 1 and 2) of values
+#' and computes all pairwise comparisons (>, ie., "greater than").
+#' The proportion of x>y is returned. Columns must be quoted.
 #'
 #' @param df data frame
 #' @param value bare (unquoted) column with values of the two vectors

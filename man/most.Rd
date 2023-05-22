@@ -2,7 +2,7 @@
 % Please edit documentation in R/NAME_most.R
 \name{most}
 \alias{most}
-\title{A function to extract the mode}
+\title{Extract the mode}
 \usage{
 most(x)
 }

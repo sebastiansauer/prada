@@ -7,7 +7,6 @@
 #' @return dag size (integer)
 #' @export
 #'
-#' @importFrom stringr str_extra_all
 #'
 #' @examples
 #'
