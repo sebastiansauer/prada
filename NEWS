@@ -1,7 +1,14 @@
+# prada 0.2.1.9999
+
+## New functions
+
+- `bayes_box`
+
+
 # prada 0.2.0.9999
 
 
-## New function `count_lexicion`
+## New function (family) `count_lexicon`
 
 
 
