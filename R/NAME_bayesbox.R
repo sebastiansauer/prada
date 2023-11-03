@@ -6,6 +6,7 @@
 #' @param hyps Vector of hypotheses (all types allowed), serves as ID
 #' @param priors Vector of prior probabilites (numeric)
 #' @param liks Vector of likelihoods (numeric)
+#' @param round number of decimal places, NULL for not rounding
 #'
 #' @return data.frame with Bayes Box
 #' @export
@@ -13,8 +14,8 @@
 #' @examples
 #'
 #' hyps <- seq(0,1, by = .1)
-#' bayesbox(hyps = hyps, priors = 1, liks = dbinom(x = 5, size = 7, prob = hyps))
-bayesbox <- function(hyps, priors, liks) {
+#' bayesbox(hyps = hyps, priors = 1, liks = dbinom(x = 5, size = 7, prob = hyps, round = 3))
+bayesbox <- function(hyps, priors, liks, round = 2) {
 
   out <-
     data.frame(
@@ -24,6 +25,8 @@ bayesbox <- function(hyps, priors, liks) {
 
   out$post_unstand <- priors*liks
   out$post_std = out$post_unstand / sum(out$post_unstand)
+
+  if (!is.null(round)) out <- round(out, round)
 
   return(out)
 }
