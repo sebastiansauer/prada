@@ -39,7 +39,7 @@ find_funs <- function(f) {
   builtin_pckgs_df <- dplyr::distinct(pckgs)
 
 
-  results <- tibble::data_frame(
+  results <- tibble::tibble(
     package_name = pckg_hits,
     builtin_pckage = match(pckg_hits, builtin_pckgs_df$Package, nomatch = 0) > 0,
     loaded = match(paste("package:",pckg_hits, sep = ""), search(), nomatch = 0) > 0

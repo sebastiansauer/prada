@@ -4,7 +4,7 @@
 \alias{bayesbox}
 \title{Compute Bayes Box}
 \usage{
-bayesbox(hyps, priors, liks)
+bayesbox(hyps, priors, liks, round = 2L)
 }
 \arguments{
 \item{hyps}{Vector of hypotheses (all types allowed), serves as ID}
@@ -12,6 +12,8 @@ bayesbox(hyps, priors, liks)
 \item{priors}{Vector of prior probabilites (numeric)}
 
 \item{liks}{Vector of likelihoods (numeric)}
+
+\item{round}{number of decimal places, NULL for not rounding (integer)}
 }
 \value{
 data.frame with Bayes Box
@@ -23,5 +25,5 @@ It can be used for simple Bayes models of discrete (non-continuous) variables.
 \examples{
 
 hyps <- seq(0,1, by = .1)
-bayesbox(hyps = hyps, priors = 1, liks = dbinom(x = 5, size = 7, prob = hyps))
+bayesbox(hyps = hyps, priors = 1, liks = dbinom(x = 5, size = 7, prob = hyps, round = 3))
 }
