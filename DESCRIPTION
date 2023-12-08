@@ -1,8 +1,8 @@
 Package: prada
 Type: Package
 Title: Data and R functions for practical data analysis
-Version: 0.2.0.9999
-Date: 2023-01-27
+Version: 0.2.2
+Date: 2023-12-09
 Author: Sebastian Sauer
 Maintainer: Sebastian Sauer <ssauer@posteo.de>
 Description: This packages provides  data and  R functions useful for practical data analysis
