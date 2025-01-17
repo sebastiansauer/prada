@@ -24,6 +24,22 @@ Both an absolute tolerance and a relative tolerance are considered.
 If at least one of both criteria are met, the fuction returns TRUE,
 otherwise FALSE.
 }
+\details{
+In regression models, it can be useful to set the absolute tolerance
+to 5% of the SD of the outcome variable, following Kruschke (2018).
+In addition, when the solution value tends to zero,
+the relative tolerance becomes very small, so an abolute tolerance value
+is needed.
+
+The size of the relative tolerance may depend on a number of factors.
+Notably, in STAN regression models, it is difficult to devise a cutoff value.
+Some tests showed that 5-10% can be sensible in some cases.
+
+However, when the solution is a proportion (such as for R squared),
+absolute tolerance must not be set
+to a fraction of the SD of the outcome variable.
+Instead, a cutoff value of .05 appears safe.
+}
 \examples{
 is_in_tolerance(asis = 39.5, tobe = 42, tol_rel = .05, tol_abs = 2.5)
 }

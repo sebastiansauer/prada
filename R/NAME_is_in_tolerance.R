@@ -5,6 +5,21 @@
 #' If at least one of both criteria are met, the fuction returns TRUE,
 #' otherwise FALSE.
 #'
+#' In regression models, it can be useful to set the absolute tolerance
+#' to 5% of the SD of the outcome variable, following Kruschke (2018).
+#' In addition, when the solution value tends to zero,
+#' the relative tolerance becomes very small, so an abolute tolerance value
+#' is needed.
+#'
+#' The size of the relative tolerance may depend on a number of factors.
+#' Notably, in STAN regression models, it is difficult to devise a cutoff value.
+#' Some tests showed that 5-10% can be sensible in some cases.
+#'
+#' However, when the solution is a proportion (such as for R squared),
+#' absolute tolerance must not be set
+#' to a fraction of the SD of the outcome variable.
+#' Instead, a cutoff value of .05 appears safe.
+#'
 #' @param asis as-is value (num), the observed value
 #' @param tobe to-be value (num), the target value
 #' @param tol_rel relative tolerance (as a proportion, num)
