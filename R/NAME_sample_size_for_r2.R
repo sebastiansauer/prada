@@ -14,7 +14,7 @@
 #'
 #' u <- 5
 #' r2 <- .3
-#' sample_size_for_r2(u = u, r2 = r2)
+#' ss <- sample_size_for_r2(u = u, r2 = r2)
 sample_size_for_r2 <- function(u, r2, target_width = 0.1) {
   res <- tibble::tibble(N = 20:5000) |>
     dplyr::mutate(
