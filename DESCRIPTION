@@ -1,8 +1,8 @@
 Package: prada
 Type: Package
 Title: Data and R functions for practical data analysis
-Version: 0.3.2
-Date: 2024-02-19
+Version: 0.3.3
+Date: 2026-03-26
 Author: Sebastian Sauer
 Maintainer: Sebastian Sauer <ssauer@posteo.de>
 Description: This packages provides  data and  R functions useful for practical data analysis
@@ -14,7 +14,10 @@ Imports:
     stringr,
     pacman,
     tibble,
-    rlang
+    rlang,
+    MBESS,
+    purrr,
+    tibble
 Suggests: 
     BayesFactor, 
     BaylorEdPsych, 
@@ -60,4 +63,4 @@ Suggests:
     gridExtra,
     grDevices,
     utils
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.3

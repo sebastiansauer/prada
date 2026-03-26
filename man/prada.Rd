@@ -2,6 +2,7 @@
 % Please edit documentation in R/prada.R
 \docType{package}
 \name{prada}
+\alias{prada-package}
 \alias{prada}
 \title{prada: A package for practical data analysis}
 \description{
