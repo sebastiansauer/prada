@@ -16,6 +16,5 @@ Installation:
 
 
 ````
-library(devtools)
-install_github("sebastiansauer/prada")
+pak::pak("sebastiansauer/prada")
 ````
